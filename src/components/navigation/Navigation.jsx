@@ -31,7 +31,7 @@ function Navigation() {
   return (
     <nav>
       <a href="#" className={styles.logo}>
-        DAVID
+        David
       </a>
 
       <Harmburger onClick={() => setIsOpen(!isOpen)} isOpen={isOpen} />
