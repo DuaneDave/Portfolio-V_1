@@ -13,7 +13,6 @@ html {
 button {
   cursor: pointer;
   background: black;
-  padding: 1em 2em;
   border: none;
   color: white;
 }
@@ -30,6 +29,13 @@ ul {
 a {
   text-decoration: none;
   color: black;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #2d2d2d;
 }
 
 .section {
@@ -51,7 +57,7 @@ a {
   html {
     scroll-snap-type: y mandatory;
   }
-  
+
   .section {
     height: 100vh;
     scroll-snap-align: start;
