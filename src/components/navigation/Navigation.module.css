@@ -28,12 +28,12 @@ nav ul li {
 .sidebar {
   position: fixed;
   top: 10%;
-  right: 10%;
+  right: 15%;
   width: 300px;
   height: 400px;
   opacity: 0;
   background-color: #fffcfa;
-  z-index: 100;
+  z-index: 20;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

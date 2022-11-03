@@ -12,10 +12,12 @@ import Backdrop from '../../reusables/backdrop/Backdrop';
 const variants = {
   open: {
     opacity: 1,
+    display: 'flex',
     transition: { type: 'spring', stiffness: 30 },
   },
   closed: {
     opacity: 0,
+    display: 'none',
     transition: { delay: 0.3, type: 'spring', stiffness: 30 },
   },
 };
