@@ -1,14 +1,17 @@
+import { Suspense, Fragment } from 'react';
 import './index.css';
-import styles from './reusables/container/Container';
-import Container from './reusables/container/Container';
+
+import Navigation from './components/navigation/Navigation';
+import HeroSection from './components/heroSection/HeroSection';
 
 function App() {
   return (
-    <div className="App">
-      <h1>React App</h1>
-      <Container />
-      <Container />
-    </div>
+    <Suspense fallback={<div>Loading...</div>}>
+      <Fragment>
+        <Navigation />
+        <HeroSection />
+      </Fragment>
+    </Suspense>
   );
 }
 
