@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;500;700;800&family=Open+Sans:wght@400;500;800&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;500;700;800&family=Open+Sans:wght@400;500;700;800&family=Poppins:wght@400;700&display=swap');
 
 * {
   padding: 0;
@@ -35,12 +35,6 @@ a {
 .section {
   width: 100%;
   scroll-snap-align: start;
-}
-
-h1 {
-  font-size: clamp(2rem, 5vw, 3.7rem);
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
 }
 
 .backdrop {
