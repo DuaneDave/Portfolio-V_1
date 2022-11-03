@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-function Button({ children, onClick, className }) {
+function Button({ children, onClick, className, ...props }) {
   return (
     <motion.button
       className={className}
@@ -11,6 +11,7 @@ function Button({ children, onClick, className }) {
       whileTap={{
         scale: 0.9,
       }}
+      {...props}
     >
       {children}
     </motion.button>

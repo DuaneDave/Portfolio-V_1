@@ -1,0 +1,31 @@
+.heroContainer {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.leftHalf {
+  width: 70%;
+  background: #ffdccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 4rem;
+}
+
+.rightHalf {
+  width: 30%;
+  background: #00120b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.placeholder {
+  width: 300px;
+  height: 300px;
+  background: #fffcfa;
+  position: relative;
+  left: -150px;
+}
