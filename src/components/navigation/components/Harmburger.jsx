@@ -19,6 +19,8 @@ function Harmburger({ onClick, isOpen }) {
     },
   };
 
+  console.log(window.scrollY);
+
   return (
     <motion.div
       aria-controls="menu"
