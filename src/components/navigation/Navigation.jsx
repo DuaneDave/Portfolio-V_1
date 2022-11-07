@@ -13,11 +13,13 @@ const variants = {
   open: {
     opacity: 1,
     display: 'flex',
+    top: '12%',
     transition: { type: 'spring', stiffness: 30 },
   },
   closed: {
     opacity: 0,
     display: 'none',
+    top: '10%',
     transition: { delay: 0.3, type: 'spring', stiffness: 30 },
   },
 };
