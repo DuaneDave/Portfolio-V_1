@@ -27,9 +27,10 @@ nav ul li {
 
 .sidebar {
   position: fixed;
-  top: 10%;
-  right: 15%;
-  width: 300px;
+  top: 13%;
+  right: 10%;
+  width: 100%;
+  max-width: 300px;
   height: 400px;
   opacity: 0;
   background-color: #fffcfa;
@@ -59,8 +60,7 @@ nav ul li {
   }
 
   .sidebar {
-    top: 10%;
-    right: 8%;
-    width: 300px;
+    top: 12%;
+    right: 10%;
   }
 }
