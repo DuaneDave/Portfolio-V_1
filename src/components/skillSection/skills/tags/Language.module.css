@@ -1,0 +1,50 @@
+.languages,
+.proffessionalTag  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 1rem;
+  width: 100%;
+  max-width: 968px;
+}
+
+.proffessionalTag {
+  max-width: 768px;
+}
+
+.proffessionalTag li {
+  border-radius: 30px;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 0.3rem 0.5rem;
+  font-size: 0.8rem;
+}
+
+.languages li {
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1rem;
+  overflow: hidden;
+  width: 180px;
+  font-size: 0.8rem;
+  position: relative;
+}
+
+.languages li span:first-of-type {
+  background: #fcd7c6;
+  width: 10px;
+  height: 30px;
+  position: absolute;
+  transform: rotate(45deg);
+  top: -8px;
+  left: -1px;
+}
+
+.languages li img {
+  width: 35px;
+  height: 35px;
+  margin-right: 1rem;
+}
