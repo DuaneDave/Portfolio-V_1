@@ -1,8 +1,20 @@
-import { motion } from 'framer-motion';
+import { motion, useScroll } from 'framer-motion';
+import { useEffect, useState } from 'react';
 
 import styles from './Components.module.css';
 
 function Harmburger({ onClick, isOpen }) {
+  const [isScrolling, setIsScrolling] = useState(0);
+  const { scrollYProgress } = useScroll();
+
+  useEffect(() => {
+    scrollYProgress.onChange((latest) => {
+      setIsScrolling(latest);
+    });
+  }, [scrollYProgress]);
+
+  const classes = isScrolling > 0.15 ? styles.darkLine : styles.line;
+
   const variants = {
     open: {
       transition: {
@@ -19,8 +31,6 @@ function Harmburger({ onClick, isOpen }) {
     },
   };
 
-  console.log(window.scrollY);
-
   return (
     <motion.div
       aria-controls="menu"
@@ -29,8 +39,8 @@ function Harmburger({ onClick, isOpen }) {
       variants={variants}
       animate={isOpen ? 'open' : 'closed'}
     >
-      <span className={styles.line}></span>
-      <span className={styles.line}></span>
+      <span className={classes}></span>
+      <span className={classes}></span>
     </motion.div>
   );
 }
