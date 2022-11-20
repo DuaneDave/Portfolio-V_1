@@ -1,6 +1,7 @@
 import styles from './HeroSection.module.css';
 import Socials from '../../reusables/socials/Socials';
 import Button from '../../reusables/button/Button';
+import BackToTop from '../../reusables/backToTop/BackToTop';
 
 function HeroSection() {
   return (
@@ -28,6 +29,7 @@ function HeroSection() {
       <span className={styles.socialLinks}>
         <Socials className={styles.socialIcon} />
       </span>
+      <BackToTop />
     </section>
   );
 }
