@@ -1,0 +1,43 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #ffe0d1, #ffdccc);
+  padding-block: 4rem;
+}
+
+.placeholder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-inline: 1.5rem;
+}
+
+.contactDetails {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contactDetails p {
+  width: 100%;
+  max-width: 55ch;
+  margin-top: 0.3rem;
+}
+
+.form {
+  width: 100%;
+}
+
+.fullName {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .placeholder {
+    width: 60%;
+  }
+}
