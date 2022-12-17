@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -15,6 +23,8 @@ button {
   border: none;
   color: white;
   background: linear-gradient(90deg, #00171f, #141301, #00120b);
+  user-select: none;
+  font-size: clamp(0.7rem, 4vw, 0.95rem);
 }
 
 button:disabled {
@@ -32,14 +42,48 @@ a {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: 'Open Sans', sans-serif;
   color: #2d2d2d;
+  line-height: 1;
+}
+
+h2,
+h3 {
+  font-weight: 600;
+  margin-bottom: 0.7rem;
 }
 
 h2 {
-  font-weight: 600;
-  font-size: clamp(3rem, 5vw, 4rem);
+  font-size: clamp(2.5rem, 5vw, 3rem);
+}
+
+h3 {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: clamp(0.8rem, 4.1vw, 1rem);
+  color: #2d2d2dc5;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 10%;
+  right: 5.5%;
+  z-index: 999;
+  background: #00120b;
+  color: white;
+  height: 50px;
+  width: 50px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .section {
@@ -65,5 +109,12 @@ h2 {
   .section {
     height: 100vh;
     scroll-snap-align: start;
+  }
+}
+
+@media screen and (max-height: 400px) {
+  p {
+    font-size: 0.9rem;
+    line-height: 1.2;
   }
 }
