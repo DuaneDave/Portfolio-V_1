@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+import { Link } from 'react-router-dom';
 import { BsArrowRight } from 'react-icons/bs';
 
 import Container from '../../reusables/container/Container';
@@ -13,10 +13,10 @@ function Works() {
             A catalog <br /> of my works.
           </h3>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-          <a href="#" className={styles.worksButton}>
+          <Link to='projects' className={styles.worksButton}>
             View All
             <BsArrowRight className={styles.icon} />
-          </a>
+          </Link>
         </div>
 
         <div className={styles.article}>
@@ -24,10 +24,10 @@ function Works() {
             A catalog <br /> of my articles.
           </h3>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-          <a href="#" className={styles.worksButton}>
+          <Link to='articles' className={styles.worksButton}>
             View All
             <BsArrowRight className={styles.icon} />
-          </a>
+          </Link>
         </div>
       </div>
     </Container>
