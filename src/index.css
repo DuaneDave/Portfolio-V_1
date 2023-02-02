@@ -12,6 +12,7 @@
 
 body {
   overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
 }
 
 html {
@@ -68,6 +69,22 @@ p {
   font-weight: 400;
   font-size: clamp(0.8rem, 4.1vw, 1rem);
   color: #2d2d2dc5;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-x {
+  justify-content: center;
+}
+
+.align-y {
+  align-items: center;
 }
 
 .back-to-top {
