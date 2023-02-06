@@ -29,13 +29,11 @@ function Skills() {
   };
 
   return (
-    <Container className={styles.skills}>
+    <Container className={styles.skills} id='skills'>
       <div className={styles.skillDetails}>
         <h2>My skills.</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-          provident ipsum eum eaque minima tenetur distinctio rem sint maxime
-          facere jhbjk knml.
+        A couple of tech stacks and tools I have integrated into my workflow to deliver efficient, well-tested and scalable applications to clients.
         </p>
       </div>
       <div className={styles.card}>
@@ -101,13 +99,17 @@ function Skills() {
           </li>
         </ul>
 
-        <AnimatePresence exitBeforeEnter>
+        <AnimatePresence mode="wait">
           <motion.div
             key={isTabbed}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ y: -10, opacity: 0 }}
-            transition={{ duration: 0.5 }}
+            transition={{
+              duration: 0.5 ,
+              type: 'spring',
+              stiffness: 30,
+            }}
           >
             {isTabbed === 0 && <Languages />}
             {isTabbed === 1 && <Frameworks />}

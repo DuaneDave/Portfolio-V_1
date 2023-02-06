@@ -1,4 +1,3 @@
-import styles from '../Skills.module.css';
 import Language from './tags/Language';
 
 function Languages() {

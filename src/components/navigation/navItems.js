@@ -1,22 +1,22 @@
 const items = [
   {
-    link: '/',
+    link: 'home',
     text: 'Home',
   },
   {
-    link: '/about',
+    link: 'about',
     text: 'About',
   },
   {
-    link: '/skills',
+    link: 'skills',
     text: 'Skills',
   },
   {
-    link: '/projects',
+    link: 'projects',
     text: 'Projects',
   },
   {
-    link: '/contact',
+    link: 'contact',
     text: 'Contact',
   },
 ];

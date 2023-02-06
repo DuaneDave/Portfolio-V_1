@@ -11,11 +11,21 @@ function ProjectDetails({ payload }) {
       <div className={styles.details + ' flex flex-column align-y'}>
         <h2>{title}</h2>
         <div className={styles.links + ' flex'}>
-          <a href={live_link} className="flex align-y">
+          <a
+            href={live_link}
+            className="flex align-y"
+            rel="noreferrer"
+            target="_blank"
+          >
             Live demo
             <BsArrowUpRight />
           </a>
-          <a href={github_link} className="flex align-y">
+          <a
+            href={github_link}
+            className="flex align-y"
+            rel="noreferrer"
+            target="_blank"
+          >
             View source
             <AiFillGithub />
           </a>

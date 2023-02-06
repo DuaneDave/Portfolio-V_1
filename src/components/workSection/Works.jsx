@@ -6,13 +6,13 @@ import styles from './Works.module.css';
 
 function Works() {
   return (
-    <Container className={styles.works}>
+    <Container className={styles.works} id='projects'>
       <div className={styles.placeholder}>
         <div className={styles.projects}>
           <h3>
             A catalog <br /> of my works.
           </h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+          <p>Contains both featured and solo projects in my dev journey.</p>
           <Link to='projects' className={styles.worksButton}>
             View All
             <BsArrowRight className={styles.icon} />
@@ -23,8 +23,8 @@ function Works() {
           <h3>
             A catalog <br /> of my articles.
           </h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-          <Link to='articles' className={styles.worksButton}>
+          <p>Shows a list of articles both tutorials and mental support</p>
+          <Link to='#' className={styles.worksButton}>
             View All
             <BsArrowRight className={styles.icon} />
           </Link>

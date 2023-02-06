@@ -1,4 +1,3 @@
-import styles from '../Skills.module.css';
 import Framework from './tags/Framework';
 
 function Frameworks() {

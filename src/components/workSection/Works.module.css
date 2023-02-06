@@ -2,14 +2,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: radial-gradient(#ffeae0, #fff1eb);
+  background: linear-gradient(#ffe7dc, #ffe7db);
   width: 100%;
-  padding: 3rem 1rem;
+  padding: 3rem 0;
 }
 
 .placeholder {
   display: flex;
   flex-direction: column;
+  width: 90%;
 }
 
 .placeholder .article,
@@ -18,11 +19,11 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  padding: 3rem 1.5rem;
+  padding: 4rem 1rem;
 }
 
 .placeholder h3 {
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 .placeholder p {
@@ -91,8 +92,8 @@
   .placeholder {
     flex-direction: row;
     width: 100%;
-    max-width: 968px;
-    height: 70%;
+    max-width: 1020px;
+    height: 75%;
   }
 
   .placeholder .article,

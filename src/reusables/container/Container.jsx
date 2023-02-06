@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-function Container({ children, className, ...rest }) {
+function Container({ children, className, id, ...rest }) {
   const classes = 'section ' + className;
   return (
     <motion.section
@@ -12,6 +12,7 @@ function Container({ children, className, ...rest }) {
           ease: 'easeInOut',
         }
       }
+      id={id}
     >
       {children}
     </motion.section>

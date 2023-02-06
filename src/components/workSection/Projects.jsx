@@ -30,7 +30,9 @@ function Projects() {
 
             <span>
               <p>project name</p>
-              <a href={project.live_link}>see project</a>
+              <a href={project.live_link} rel="noreferrer" target="_blank">
+                see project
+              </a>
             </span>
           </motion.div>
         ))}

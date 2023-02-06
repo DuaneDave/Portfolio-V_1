@@ -8,8 +8,6 @@
 }
 
 .about .card {
-  background: linear-gradient( #ffe7db, #ffe3d6);
-  box-shadow: 0 0 10px 0 #e6c6b875;
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -26,42 +24,47 @@
 
 .aboutDetails {
   width: 100%;
-  max-width: 450px;
   text-align: center;
-  padding-inline: 1rem;
   order: 1;
 }
 
 .aboutPlaceholder {
   width: 100%;
-  max-width: 250px;
-  height: 250px;
-  background: #fff;
+  max-width: 300px;
+  height: 300px;
+  background: radial-gradient(#e0e0e0, #ffeeee);
   order: 2;
+  overflow: hidden;
 }
 
-/* .aboutPlaceholder div {
+.aboutPlaceholder img {
   width: 100%;
-  height: 250px;
-  background: #fff;
-  transform: rotate(-10deg);
-} */
-
-/* background: linear-gradient(to right, #f5f5f5, #f5f5f5); */
+  object-fit: contain;
+}
 
 @media screen and (min-width: 768px) {
   .about .card {
-    width: 80%;
+    width: 78%;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 2rem;
-    height: 70%;
-    gap: 2rem;
+    min-height: 80%;
+    gap: 1rem;
   }
 
   .aboutDetails {
+    max-width: 480px;
     text-align: unset;
     padding-inline: 0;
     order: 2;
+    position: relative;
+    bottom: -70px;
+  }
+
+  .aboutPlaceholder {
+    max-width: 300px;
+    height: 300px;
+    position: relative;
+    top: -70px;
   }
 }

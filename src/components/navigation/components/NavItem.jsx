@@ -20,7 +20,7 @@ function NavItems({ link, text, onClick }) {
         variants={variants}
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
-        href={link}
+        href={`/#${link}`}
         onClick={onClick}
       >
         {text}

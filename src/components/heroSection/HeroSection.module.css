@@ -12,7 +12,7 @@
   width: 100%;
   flex-direction: column;
   justify-content: center;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
 }
 
 .leftHalf > div {
@@ -48,7 +48,14 @@
 .placeholder {
   width: 250px;
   height: 250px;
-  background: #fffcfa;
+  overflow: hidden;
+  background: #00120b;
+  position: relative;
+}
+
+.placeholder img {
+  width: 250px;
+  object-fit: contain;
 }
 
 .socialLinks {
@@ -101,10 +108,6 @@
   }
 
   .placeholder {
-    width: 250px;
-    height: 250px;
-    background: #fffcfa;
-    position: relative;
     left: -95px;
     bottom: -1.5rem;
   }

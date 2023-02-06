@@ -1,5 +1,5 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 import styles from './Navigation.module.css';
@@ -34,9 +34,9 @@ function Navigation() {
 
   return (
     <nav>
-      <a href="#" className={styles.logo}>
+      <Link to="/" className={styles.logo}>
         David
-      </a>
+      </Link>
 
       <Harmburger onClick={() => setIsOpen(!isOpen)} isOpen={isOpen} />
 

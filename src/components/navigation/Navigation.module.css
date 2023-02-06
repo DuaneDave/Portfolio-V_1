@@ -2,17 +2,17 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.4rem 1.5rem;
+  padding: 1.4rem 1rem;
   position: fixed;
   z-index: 10;
   width: 100%;
 }
 
 nav .logo {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 500;
   color: #00120b;
-  font-weight: 'Arima Madurai', sans-serif;
+  font-weight: 'Poppins', sans-serif;
 }
 
 nav ul {
@@ -84,6 +84,10 @@ nav ul li {
   .sidebar {
     top: 12%;
     right: 10%;
+  }
+
+  nav .logo {
+    font-size: 2rem;
   }
 }
 

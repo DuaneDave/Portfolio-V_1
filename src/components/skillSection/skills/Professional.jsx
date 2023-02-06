@@ -1,4 +1,3 @@
-import styles from '../Skills.module.css';
 import ProffessionalTags from './tags/ProffesionalTags';
 
 function Professional() {
