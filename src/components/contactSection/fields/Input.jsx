@@ -1,5 +1,4 @@
 import { useField } from 'formik';
-import { motion } from 'framer-motion';
 
 import styles from './Input.module.css';
 
