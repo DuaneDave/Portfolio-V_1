@@ -37,7 +37,7 @@ function Form() {
         <form onSubmit={handleSubmit} className={styles.form}>
           <div className={styles.fullName}>
             <Input
-              label="Last Name"
+              label="First Name"
               name="fname"
               type="text"
               placeholder="Enter Your First Name"

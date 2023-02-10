@@ -24,8 +24,8 @@ function Socials({ className }) {
       <motion.a
         whileHover={{ scale: 1.1 }}
         target="_blank"
-        href="https://github.com/DuaneDave"
         rel="noreferrer"
+        href="https://github.com/DuaneDave"
         variants={variants}
       >
         <AiFillGithub className={className} />

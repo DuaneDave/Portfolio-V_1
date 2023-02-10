@@ -16,7 +16,7 @@ function HeroSection() {
           </h1>
 
           <p>
-          I am David Obiebi. I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me
+          I am David Obiebi. I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
           </p>
 
           <Button

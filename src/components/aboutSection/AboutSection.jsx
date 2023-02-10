@@ -25,8 +25,8 @@ function AboutSection() {
           <Button
             className={styles.aboutButton}
             onClick={() =>
-              (window.location.href =
-                'https://docs.google.com/document/d/1Xlt7Mv3AJGTt6aEDGzkUg6WryIEBx10mCXePUH9t-Qg/edit')
+              (window.open(
+                'https://docs.google.com/document/d/1Xlt7Mv3AJGTt6aEDGzkUg6WryIEBx10mCXePUH9t-Qg/edit'))
             }
           >
             Get My Resume
