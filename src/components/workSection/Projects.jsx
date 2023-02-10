@@ -29,7 +29,7 @@ function Projects() {
             <img src={project.screenshots[0]} alt="project screenshot" />
 
             <span>
-              <p>project name</p>
+              <p>{project.title}</p>
               <a href={project.live_link} rel="noreferrer" target="_blank">
                 see project
               </a>
