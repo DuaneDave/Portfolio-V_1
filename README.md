@@ -12,17 +12,13 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-    - [API Documentation](#api-documentation)
   - [🚀 Live Demo](#live-demo)
-    - [Back-end Repository](#back-end-repository)
-    - [Kanban Board](#kanban-board)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -33,7 +29,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Trek Bike Rental <a name="about-project"></a>
+# 📖 Personal Website <a name="about-project"></a>
 
 **Personal website** This is my personal website that displays a collection of my works and displays the inputs i have made in the tech space. It was built using React, React Router, and React Hooks. It is fully responsive and has a mobile-first design. It is also fully accessible.
 
