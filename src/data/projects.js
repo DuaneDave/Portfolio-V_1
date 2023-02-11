@@ -52,8 +52,8 @@ const projects = [
     description:
       'Kanban is a web application that fetches a list of movie from an API and displays them for user to view. Kanban provides interactivity by allowing users to post likes and comments on a movie. Also all user interractions are saved to a backend database. It was built using HTML, CSS and vanila JavaScript. It is fully responsive and has a mobile-first design. It is also fully accessible.',
     screenshots: [kanB1, kanB2, kanB3],
-    live_link: '',
-    github_link: '',
+    live_link: 'https://duanedave.github.io/Capstone-Kanban/',
+    github_link: 'https://github.com/DuaneDave/Capstone-Kanban',
     tech_stack: ['HTML', 'CSS', 'JavaScript', 'Webpack'],
   },
   {

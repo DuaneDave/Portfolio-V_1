@@ -28,7 +28,8 @@ function Form() {
       })}
       onSubmit={(values, { setSubmitting }) => {
         setTimeout(() => {
-          alert(JSON.stringify(values, null, 2));
+          // alert(JSON.stringify(values, null, 2));
+          alert('Thank you for resaching out!');
           setSubmitting(false);
         }, 400);
       }}

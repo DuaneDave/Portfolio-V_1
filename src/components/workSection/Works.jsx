@@ -24,7 +24,7 @@ function Works() {
             A catalog <br /> of my articles.
           </h3>
           <p>Shows a list of articles both tutorials and mental support</p>
-          <Link to='#' className={styles.worksButton}>
+          <Link to='/articles' className={styles.worksButton}>
             View All
             <BsArrowRight className={styles.icon} />
           </Link>

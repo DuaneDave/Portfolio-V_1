@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  min-height: 100vh;
   padding: 7rem 1.5rem 2rem;
   background: radial-gradient(#ffe0d1, #ffe3d6, #ffe7db);
 }
@@ -54,14 +55,14 @@
 }
 
 .card span p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #181818;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.1rem;
 }
 
 .card span a {
   color: #2d2d2d;
-  font-size: 0.93rem;
+  font-size: 0.85rem;
 }
 
 @media screen and (min-width: 768px) {
