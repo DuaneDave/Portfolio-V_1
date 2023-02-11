@@ -5,7 +5,7 @@ import Button from '../../reusables/button/Button';
 import Input, { TextArea } from './fields/Input';
 import styles from './Contact.module.css';
 
-function Form() {
+function Form({ onAlert }) {
   return (
     <Formik
       initialValues={{
@@ -27,14 +27,15 @@ function Form() {
           .required('Required'),
       })}
       onSubmit={(values, { setSubmitting }) => {
+        onAlert(true);
         setTimeout(() => {
           // alert(JSON.stringify(values, null, 2));
-          alert('Thank you for resaching out!');
+          onAlert(false);
           setSubmitting(false);
-        }, 400);
+        }, 3000);
       }}
     >
-      {({ handleSubmit }) => (
+      {({ handleSubmit }) => (                                    
         <form onSubmit={handleSubmit} className={styles.form}>
           <div className={styles.fullName}>
             <Input
