@@ -1,11 +1,9 @@
 import { motion } from 'framer-motion';
-import { useNavigate } from 'react-router-dom';
 import articles from '../../data/articles';
 
 import styles from './Projects.module.css';
 
 function Articles() {
-  const navigate = useNavigate();
   return (
     <section className={styles.container}>
       <span>
@@ -24,7 +22,6 @@ function Articles() {
               type: 'spring',
               stiffness: 300,
             }}
-            onClick={() => navigate(`/articles/${article.id}`)}
           >
             <img src={article.image} alt="article screenshot" />
 
