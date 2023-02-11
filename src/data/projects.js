@@ -36,7 +36,7 @@ const projects = [
     description:
       'This is my personal website that displays a collection of my works and displays the inputs i have made in the tech space. It was built using React, React Router, and React Hooks. It is fully responsive and has a mobile-first design. It is also fully accessible.',
     screenshots: [port1, port2],
-    live_link: 'https://duanecodes.netlify.app/projects/2',
+    live_link: 'https://duanecodes.netlify.app',
     github_link: 'https://github.com/DuaneDave/Portfolio-V_1',
     tech_stack: [
       'React',
